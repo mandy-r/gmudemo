@@ -3,7 +3,7 @@ project:
   prefix: GMU
   human_name: 'GMU Platform'
   profile:
-    name: lightning
+    name: gmucore
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
