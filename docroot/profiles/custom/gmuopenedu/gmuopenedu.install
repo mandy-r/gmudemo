@@ -30,6 +30,12 @@ function gmuopenedu_install() {
   // Since our sample content is so large, this is needed to help lower-powered
   // installs.
 
+    // Since our sample content is so large, this is needed to help lower-powered
+  // installs.
+  if (PHP_SAPI !== 'cli') {
+    ini_set('memory_limit', '512M');
+  }
+
 
   \Drupal::service('module_installer')->install([
     'lightning_media_image',
