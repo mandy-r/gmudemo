@@ -1,0 +1,59 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions for the gmucore profile.
+ */
+
+use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\field\Entity\FieldConfig;
+use Drupal\node\Entity\NodeType;
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for gmucore profile.
+ *
+ * @see system_install()
+ */
+function gmucore_nstall() {
+
+
+  // Set front page to "node".
+  \Drupal::configFactory()
+    ->getEditable('system.site')
+    ->set('page.front', '/node')
+    ->save(TRUE);
+
+  // Restrict user registration to admin role creation.
+  \Drupal::configFactory()
+    ->getEditable('user.settings')
+    ->set('register', USER_REGISTER_ADMINISTRATORS_ONLY)
+    ->save(TRUE);
+
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+
+  // Allow authenticated users to use shortcuts.
+  user_role_grant_permissions(RoleInterface::AUTHENTICATED_ID, ['access shortcuts']);
+ 
+
+  // Set the default and admin theme.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    //->set('default', 'theme')
+    ->set('admin', 'seven')
+    ->save(TRUE);
+
+  // Enable the admin theme.
+  \Drupal::configFactory()
+    ->getEditable('node.settings')
+    ->set('use_admin_theme', TRUE)
+    ->save(TRUE);
+
+  }
+

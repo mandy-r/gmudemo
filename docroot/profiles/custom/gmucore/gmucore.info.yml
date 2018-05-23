@@ -1,0 +1,17 @@
+name: gmucore
+type: profile
+description: 'Acquia Cloud Site Factory platform base profile.'
+core: '8.x'
+distribution:
+  name: gmucore
+base profile:
+  name: lightning
+    
+dependencies:
+  - acsf
+  - config_split
+
+themes:
+  - seven
+
+

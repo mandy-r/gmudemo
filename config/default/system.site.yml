@@ -1,0 +1,14 @@
+uuid: 7245a2f3-a740-4a91-b35b-ccfe1acd2cd4
+name: 'GMU Platform'
+mail: no-reply@acquia.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

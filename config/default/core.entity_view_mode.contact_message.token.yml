@@ -1,0 +1,14 @@
+uuid: f2def1e4-c89d-4d1f-b162-22c90e33befe
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+id: contact_message.token
+label: Token
+targetEntityType: contact_message
+cache: true
