@@ -1,0 +1,21 @@
+uuid: 0d27f51e-e14d-4ec5-8d29-a972b93af099
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: rApE-wvK9rvL1Mrv6MBt3zS9js_OPnB82UpksoWtK-0
+id: node.field_profile_department
+field_name: field_profile_department
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

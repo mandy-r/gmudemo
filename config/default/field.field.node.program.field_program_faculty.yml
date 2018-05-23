@@ -1,0 +1,29 @@
+uuid: e212bbc4-7b38-4ad0-9036-853392cdeae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_program_faculty
+    - node.type.program
+_core:
+  default_config_hash: igOi67kGRMgnx0DdG1OUKVmLVI13wk-oBBpZouzQTTc
+id: node.program.field_program_faculty
+field_name: field_program_faculty
+entity_type: node
+bundle: program
+label: 'Program Faculty'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      profile_block: profile_block
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

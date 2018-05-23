@@ -5,6 +5,12 @@ include dirname(__FILE__) . '/acsf.settings.php';
 // ===== Added by acsf-init, please do not delete. Section end. =====
 
 
+
+
+
+
+
+
 // @codingStandardsIgnoreFile
 
 /**
@@ -791,4 +797,4 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
-$settings['install_profile'] = 'gmucore';
+$settings['install_profile'] = 'openedu';

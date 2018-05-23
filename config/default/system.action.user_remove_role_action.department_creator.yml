@@ -1,0 +1,14 @@
+uuid: a81d3674-6857-4e60-91b9-c3b7ab28842f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.department_creator
+  module:
+    - user
+id: user_remove_role_action.department_creator
+label: 'Remove the Department creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: department_creator

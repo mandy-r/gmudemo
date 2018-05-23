@@ -1,0 +1,22 @@
+uuid: c7ad668d-3f12-4ea0-b1d8-1267d264909d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+_core:
+  default_config_hash: 0AJEWYRmXPdlAsiUczc2fQZs8uM1heMKPEjwqmSQw9Q
+id: block_content.field_hero_image
+field_name: field_hero_image
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

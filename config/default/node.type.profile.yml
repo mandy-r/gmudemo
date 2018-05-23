@@ -1,0 +1,20 @@
+uuid: 731d5bdc-9c13-473c-810d-43e8d05eadc8
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: UlfW4UXfa64PtGilBhrotIGx1BK-lzl1z5UkvQdoAoE
+name: Profile
+type: profile
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

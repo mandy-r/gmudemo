@@ -1,4 +1,4 @@
-uuid: 0b751b39-3a9a-44a3-b590-8316266ee189
+uuid: 73212a6c-815d-4031-b508-7c412e4c77fb
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,9 @@ settings:
             - Subscript
             - '-'
             - RemoveFormat
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
         -
           name: Linking
           items:
@@ -45,6 +48,7 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
         -
           name: Tools
           items:

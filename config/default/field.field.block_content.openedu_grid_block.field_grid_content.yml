@@ -1,0 +1,23 @@
+uuid: 4109b6d9-cf48-43e1-83bc-70a759599a77
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.openedu_grid_block
+    - field.storage.block_content.field_grid_content
+  module:
+    - text
+_core:
+  default_config_hash: QKAfEftuiY5zv-u4SvtE3UNoRa4MxOR4FWu99C9bPmA
+id: block_content.openedu_grid_block.field_grid_content
+field_name: field_grid_content
+entity_type: block_content
+bundle: openedu_grid_block
+label: 'Grid Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,4 +1,4 @@
-uuid: dea73f65-c11a-4ea0-86c7-3827079d5062
+uuid: 351123a2-3271-4fa6-b89d-ef61133e05d9
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,7 @@ content:
     type: file_default
     region: content
 hidden:
+  addtoany: true
   created: true
   field_media_in_library: true
   name: true

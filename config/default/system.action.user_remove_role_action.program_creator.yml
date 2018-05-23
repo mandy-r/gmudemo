@@ -1,0 +1,14 @@
+uuid: 29295a16-cbc3-45e9-b242-dcde03d1f128
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.program_creator
+  module:
+    - user
+id: user_remove_role_action.program_creator
+label: 'Remove the Program creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: program_creator

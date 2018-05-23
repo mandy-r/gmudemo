@@ -1,10 +1,10 @@
-uuid: c678b57f-b18b-47c7-a031-7277be8d79a9
+uuid: 70dbe248-a1f6-42cd-9fc2-e60202b4a618
 langcode: en
 status: true
 dependencies: {  }
 id: landing_page_reviewer
 label: 'Landing page reviewer'
-weight: 5
+weight: 18
 is_admin: null
 permissions:
   - 'access content overview'

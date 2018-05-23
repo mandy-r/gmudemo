@@ -1,0 +1,19 @@
+uuid: 55664bfb-107f-494d-8e96-6f70def41002
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: equpqWg6AhR-wQvfJftXML5-UVoQlOvStZX46NoihxI
+id: department_reviewer
+label: 'Department reviewer'
+weight: 6
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any department content'
+  - 'edit any department content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'

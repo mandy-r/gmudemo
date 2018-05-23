@@ -1,0 +1,10 @@
+uuid: a1befccc-ca17-41b6-8d23-58f262b30425
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZZe9n8WllUWparSjDXAdZ_92v1s6AdMNsNxwd-QzI3c
+id: openedu_hero
+label: 'Hero Banner'
+revision: 1
+description: 'Adds a custom background image and text element'

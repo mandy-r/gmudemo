@@ -1,0 +1,10 @@
+uuid: 6c524326-6838-4aa8-b78c-f0f3babb3d1a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qnGX83L4JoDzMG0nTTGhcFZj_daFqvQIQQG07WwMFBs
+id: profile_block
+label: 'Profile Block'
+revision: 1
+description: 'A custom block to output profile (faculty, staff, etc) teaser cards in a grid.'

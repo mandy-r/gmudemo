@@ -1,0 +1,16 @@
+uuid: fec0e049-4f30-4cc8-a1c1-45daaa30e262
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: u6J7SpCps7mbVY-uhmiF9aNQ3zeRHk2upxcuAvdeSnY
+name: story_image
+label: 'Story Image (185x210)'
+effects:
+  a1b74b70-1bb3-42aa-afab-cfdcfd00eaa8:
+    uuid: a1b74b70-1bb3-42aa-afab-cfdcfd00eaa8
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 185
+      height: 210

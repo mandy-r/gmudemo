@@ -1,0 +1,14 @@
+uuid: 18afbd33-885e-4a90-a1fd-ac2ccd92d1f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.story_creator
+  module:
+    - user
+id: user_add_role_action.story_creator
+label: 'Add the Story creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: story_creator

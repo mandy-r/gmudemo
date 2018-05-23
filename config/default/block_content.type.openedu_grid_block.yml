@@ -1,0 +1,10 @@
+uuid: d52a40c5-9d61-482e-8c94-e62ff03fd6cf
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: W-fJNknGQ8swIOWlFsbRhRX1QWroHbf5QzoA9TQIs4A
+id: openedu_grid_block
+label: 'Grid Block'
+revision: 1
+description: 'A custom block to output fields in a ''Grid''.'

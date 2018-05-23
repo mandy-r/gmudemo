@@ -1,4 +1,4 @@
-uuid: 403f14d0-6256-4668-b08b-85c0cfb22cad
+uuid: 4dfbf38f-cf50-44ed-ad4b-35b9bdda6efa
 langcode: en
 status: true
 dependencies:
@@ -24,6 +24,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   created: true
   field_media_in_library: true
   name: true

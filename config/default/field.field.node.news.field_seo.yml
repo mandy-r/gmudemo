@@ -1,0 +1,31 @@
+uuid: f9efa175-eeee-43c2-b427-a06158e8c9e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo
+    - node.type.news
+  module:
+    - yoast_seo
+_core:
+  default_config_hash: jlgEao5KYj3IUkJZ3Hlzc6gR3DX431So_m7qJO5Jie0
+id: node.news.field_seo
+field_name: field_seo
+entity_type: node
+bundle: news
+label: SEO
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    yoast_seo:
+      focus_keyword: ''
+      status: '0'
+    status: '0'
+    focus_keyword: ''
+    title: null
+    description: null
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

@@ -1,4 +1,4 @@
-uuid: 05639952-6b8f-4cf1-99fc-4156ca3d18fa
+uuid: 66178515-c264-4780-80a1-9f9954351f3e
 langcode: en
 status: true
 dependencies:
@@ -27,6 +27,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   created: true
   field_document: true
   field_media_in_library: true

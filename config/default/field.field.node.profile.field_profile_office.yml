@@ -1,0 +1,21 @@
+uuid: 855367ec-9c6f-4ee4-89cf-193a1b9e0568
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_office
+    - node.type.profile
+_core:
+  default_config_hash: JisFgKIsXYBN8Gi-Lmvxvd05ux9jK1xlRhHc05KE45U
+id: node.profile.field_profile_office
+field_name: field_profile_office
+entity_type: node
+bundle: profile
+label: 'Office Location'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

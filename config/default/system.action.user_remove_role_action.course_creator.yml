@@ -1,0 +1,14 @@
+uuid: 2a271417-cf42-4c67-b101-f8d32d3f58aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.course_creator
+  module:
+    - user
+id: user_remove_role_action.course_creator
+label: 'Remove the Course creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: course_creator

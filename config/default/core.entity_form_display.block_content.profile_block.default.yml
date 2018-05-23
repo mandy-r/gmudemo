@@ -1,0 +1,40 @@
+uuid: 97d216dc-a457-45b1-8208-625fec0198c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.profile_block
+    - field.field.block_content.profile_block.field_profile
+  module:
+    - content_moderation
+_core:
+  default_config_hash: NvlC3IoMqa55Z4P6QoPGPUi4wXMB_ffXTBCyW4Kkhgw
+id: block_content.profile_block.default
+targetEntityType: block_content
+bundle: profile_block
+mode: default
+content:
+  field_profile:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden: {  }

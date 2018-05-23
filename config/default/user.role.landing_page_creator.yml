@@ -1,10 +1,10 @@
-uuid: e94f1285-61b3-48d7-9270-74585f53ee39
+uuid: 3939d9a6-e5e3-47a3-be3b-4da8c21d8b19
 langcode: en
 status: true
 dependencies: {  }
 id: landing_page_creator
 label: 'Landing page creator'
-weight: 4
+weight: 17
 is_admin: null
 permissions:
   - 'access contextual links'

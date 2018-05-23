@@ -1,0 +1,20 @@
+uuid: 2bbb29a8-2a35-485e-a5e0-dcb1bb02e0af
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: 03jlwsT6cOXtoQtpg532sgKjc8zh_aAnenxQHUQHOds
+name: Story
+type: story
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,21 @@
+uuid: 628024a3-4c74-40be-a3f1-fb8f1f4f6cef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: 1cR5vtDXK8zPAj-Lz74uqMsTvVdx1o0ORAziNSBPPAI
+id: node.field_profile_students
+field_name: field_profile_students
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

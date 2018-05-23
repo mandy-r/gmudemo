@@ -1,0 +1,23 @@
+uuid: 60c200b1-c05f-4025-aa04-d10e4503056b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_students
+    - node.type.profile
+  module:
+    - text
+_core:
+  default_config_hash: dwchKGVYkbsx60f6mYKgc-8Dnu1AknfC1Bb7Sl6q3Zs
+id: node.profile.field_profile_students
+field_name: field_profile_students
+entity_type: node
+bundle: profile
+label: 'Students Supervised'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

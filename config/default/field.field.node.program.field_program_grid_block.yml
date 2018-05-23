@@ -1,0 +1,30 @@
+uuid: c14b7a0d-ded4-4c98-8e09-0906b93b2adf
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.openedu_grid_block
+    - field.storage.node.field_program_grid_block
+    - node.type.program
+_core:
+  default_config_hash: hxPokzXOjaaODE1RvxA0KsCjzgnH4c7AEOjKtn4IyUI
+id: node.program.field_program_grid_block
+field_name: field_program_grid_block
+entity_type: node
+bundle: program
+label: 'Program Grid Block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      openedu_grid_block: openedu_grid_block
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

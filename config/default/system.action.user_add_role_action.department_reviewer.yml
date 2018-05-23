@@ -1,0 +1,14 @@
+uuid: cefa3a7c-f26a-44b4-ae6f-ee713612cf33
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.department_reviewer
+  module:
+    - user
+id: user_add_role_action.department_reviewer
+label: 'Add the Department reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: department_reviewer

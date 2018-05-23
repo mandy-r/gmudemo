@@ -1,0 +1,19 @@
+uuid: e35e626a-ba76-447e-9450-b54582308ec6
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.hero_crop
+  module:
+    - crop
+_core:
+  default_config_hash: Q-kwHFF-iOLdgHhC3JBuLkxuObRbnZR6biznBaOzC0c
+name: crop_hero_crop
+label: 'Cropped: Hero Crop'
+effects:
+  8fcd87e4-d07a-4116-8de9-12e1eb27d17f:
+    uuid: 8fcd87e4-d07a-4116-8de9-12e1eb27d17f
+    id: crop_crop
+    weight: null
+    data:
+      crop_type: hero_crop

@@ -1,4 +1,4 @@
-uuid: fdbe9b2f-0359-4b0a-8ccc-0c6972f92698
+uuid: f5b3d1d2-780c-4e10-8115-f92c7085434d
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ dependencies:
     - media.type.image
   module:
     - content_moderation
-    - image_widget_crop
+    - image
     - path
 _core:
   default_config_hash: kyoAHlZTGIuGTaQuBblGBk8EhfnVKOl19_0j5WbpQqM
@@ -26,17 +26,11 @@ content:
     third_party_settings: {  }
     region: content
   image:
-    type: image_widget_crop
+    type: image_image
     weight: 0
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
-      crop_list:
-        - freeform
-      show_crop_area: true
-      crop_preview_image_style: crop_thumbnail
-      show_default_crop: true
-      warn_multiple_usages: false
     third_party_settings: {  }
     region: content
   moderation_state:

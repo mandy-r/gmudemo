@@ -1,0 +1,16 @@
+uuid: 0ec51805-c564-4b0a-9ee2-d2932ab198df
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - node
+third_party_settings:
+  lightning_core:
+    description: 'A view for content being featured in a manner other than regular content'
+_core:
+  default_config_hash: FcvEupq2YIKd72GhfKxOX15WY2--6RsB6bkN4kuWGho
+id: node.featured_content
+label: 'Featured Content'
+targetEntityType: node
+cache: true

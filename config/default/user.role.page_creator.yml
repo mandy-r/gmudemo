@@ -1,10 +1,10 @@
-uuid: 3d8e796a-2bc5-4972-9979-1ed10cf227bc
+uuid: 83520f4f-1e3f-4d3d-9df7-7ae9b62b180d
 langcode: en
 status: true
 dependencies: {  }
 id: page_creator
 label: 'Basic page creator'
-weight: 2
+weight: 19
 is_admin: null
 permissions:
   - 'access contextual links'

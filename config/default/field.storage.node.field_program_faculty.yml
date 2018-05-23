@@ -1,0 +1,22 @@
+uuid: 02f41e63-5f54-4a2f-bc33-24c64a5d8a23
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+_core:
+  default_config_hash: KkzbWm_fuV0KQ1oHOJs07gec0D1l7jnf0vRI2sjXUfg
+id: node.field_program_faculty
+field_name: field_program_faculty
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,14 @@
+uuid: 62692ba2-782e-44f8-aa27-f2920a2d0604
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.story_creator
+  module:
+    - user
+id: user_remove_role_action.story_creator
+label: 'Remove the Story creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: story_creator

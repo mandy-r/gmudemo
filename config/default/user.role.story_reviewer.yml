@@ -1,0 +1,19 @@
+uuid: d0690bc4-77bf-4f52-ac17-14c4e4c4648f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rjD6TMR7rtfUF-rWC4HawyNdB84tDptb9un9K2pceyE
+id: story_reviewer
+label: 'Story reviewer'
+weight: 14
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any story content'
+  - 'edit any story content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'

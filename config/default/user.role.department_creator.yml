@@ -1,0 +1,30 @@
+uuid: 52fdc897-9c93-4792-8d85-f0d055304f6b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: p4Elvzw6_Uo_xSDCIFDicQ-h-VzH1usBMpg8Bd2GQDk
+id: department_creator
+label: 'Department creator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node department content'
+  - 'administer panelizer node department layout'
+  - 'change layouts in place editing'
+  - 'create department content'
+  - 'create url aliases'
+  - 'edit own department content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view department revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

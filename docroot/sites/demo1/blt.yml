@@ -1,0 +1,10 @@
+project:
+  local:
+    hostname: local.demo1.com
+    protocol: http
+  machine_name: demo1
+  human_name: demo1
+drush:
+  aliases:
+    local: self
+    remote: demo1.prod

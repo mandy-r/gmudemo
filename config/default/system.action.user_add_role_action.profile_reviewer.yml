@@ -1,0 +1,14 @@
+uuid: 86a67742-a6d9-4865-8b89-db01b98ca81c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.profile_reviewer
+  module:
+    - user
+id: user_add_role_action.profile_reviewer
+label: 'Add the Profile reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: profile_reviewer

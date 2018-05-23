@@ -1,0 +1,30 @@
+uuid: 86891b87-2a79-4423-9c2d-d32689084cc7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IP8Y80HS-OeTva8PddQkjO5g3bKhBOzCJoSPqZEY_pc
+id: profile_creator
+label: 'Profile creator'
+weight: 9
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node profile content'
+  - 'administer panelizer node profile layout'
+  - 'change layouts in place editing'
+  - 'create profile content'
+  - 'create url aliases'
+  - 'edit own profile content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view profile revisions'

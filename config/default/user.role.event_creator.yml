@@ -1,0 +1,30 @@
+uuid: 896795c3-b729-4e04-8874-62af3bd5a4a3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fGFNFtoGwAchOE0ldOiZ2vRPpgXHxrXR47ol50CjTts
+id: event_creator
+label: 'Event creator'
+weight: 15
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node event content'
+  - 'administer panelizer node event layout'
+  - 'change layouts in place editing'
+  - 'create event content'
+  - 'create url aliases'
+  - 'edit own event content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view event revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

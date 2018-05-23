@@ -1,0 +1,39 @@
+uuid: 4b21fd1e-233b-4b72-b2c3-54b01a81957d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.story.body
+    - field.field.node.story.field_story_caption
+    - field.field.node.story.field_story_image
+    - field.field.node.story.field_story_subtitle
+    - field.field.node.story.panelizer
+    - node.type.story
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: lGUf0l6Bu3OcTbZ5lMLdKUBxnOxvGVFP_0_SejKIzhQ
+id: node.story.teaser
+targetEntityType: node
+bundle: story
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  field_story_caption: true
+  field_story_image: true
+  field_story_subtitle: true
+  panelizer: true

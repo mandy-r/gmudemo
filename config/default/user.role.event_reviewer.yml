@@ -1,0 +1,19 @@
+uuid: 1d8d57d5-cddc-482a-b180-9ba82f6cd291
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iPPAA5iLcAzfHJ_b61sz0MiCHyUSlc5y0InpYWU3-Qc
+id: event_reviewer
+label: 'Event reviewer'
+weight: 16
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any event content'
+  - 'edit any event content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'

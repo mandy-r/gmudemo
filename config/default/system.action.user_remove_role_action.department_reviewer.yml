@@ -1,0 +1,14 @@
+uuid: ce7fc58b-adae-42fb-a90c-3c3a8691d6e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.department_reviewer
+  module:
+    - user
+id: user_remove_role_action.department_reviewer
+label: 'Remove the Department reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: department_reviewer

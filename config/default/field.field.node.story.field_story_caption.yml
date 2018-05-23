@@ -1,0 +1,23 @@
+uuid: 7715c2bf-4f6c-45f0-9b32-5a28eb638d97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_story_caption
+    - node.type.story
+  module:
+    - text
+_core:
+  default_config_hash: p2acgbPmft8LlDLqgH5FbHJ2mEc7B-setKf6aq8mPlc
+id: node.story.field_story_caption
+field_name: field_story_caption
+entity_type: node
+bundle: story
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

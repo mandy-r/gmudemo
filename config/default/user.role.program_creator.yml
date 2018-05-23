@@ -1,0 +1,30 @@
+uuid: ec4b040a-5a05-4110-81db-a1cd504f1bf6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3Fx30tutIF-gS7OpwDVC7-3Hy_Px-vhsBAnaS37Ykno
+id: program_creator
+label: 'Program creator'
+weight: 7
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node program content'
+  - 'administer panelizer node program layout'
+  - 'change layouts in place editing'
+  - 'create program content'
+  - 'create url aliases'
+  - 'edit own program content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view program revisions'

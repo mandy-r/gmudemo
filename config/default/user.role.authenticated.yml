@@ -1,4 +1,4 @@
-uuid: 09153495-366d-4f5a-88a4-2801d4366234
+uuid: 1c1f349a-6d7d-4cd5-bbfc-d18a55039efb
 langcode: en
 status: true
 dependencies: {  }
@@ -11,5 +11,4 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access shortcuts'
-  - 'access site-wide contact form'
   - 'view media'

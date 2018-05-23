@@ -1,0 +1,26 @@
+uuid: 5cbd6e61-19f2-4d24-a763-d19bc20859b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.utility-navigation
+  module:
+    - system
+  theme:
+    - oedu_sub
+_core:
+  default_config_hash: 6grcWzlhfe37WRMiRz7AFGpaMSYkl0DJUhIhdMNut24
+id: utilitynavigation
+theme: oedu_sub
+region: header_bar
+weight: -1
+provider: null
+plugin: 'system_menu_block:utility-navigation'
+settings:
+  id: 'system_menu_block:utility-navigation'
+  label: 'Utility Navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

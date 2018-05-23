@@ -1,0 +1,10 @@
+uuid: 2129280b-d8dd-4398-a738-1b1716056963
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wPMHZXyrNfU4lxntokvIMfcFKghhVftzoUX_VMqo7Eo
+id: cta_section_header
+label: 'CTA Section Header'
+revision: 1
+description: 'A simple content CTA block'

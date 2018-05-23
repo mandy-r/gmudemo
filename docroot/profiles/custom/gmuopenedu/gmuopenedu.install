@@ -1,0 +1,44 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions for the gmuopenedu profile.
+ */
+
+use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\field\Entity\FieldConfig;
+use Drupal\node\Entity\NodeType;
+use Drupal\user\Entity\User;
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for gmuopenedu profile.
+ *
+ * @see system_install()
+ */
+function gmuopenedu_install() {
+
+ // Don't do anything during config sync.
+
+    // Don't do anything during config sync.
+  if (\Drupal::isConfigSyncing()) {
+    return;
+  }
+
+  // Since our sample content is so large, this is needed to help lower-powered
+  // installs.
+
+
+  \Drupal::service('module_installer')->install([
+    'lightning_media_image',
+  ]);
+
+    \Drupal::service('module_installer')->install([
+    'openedu_content',
+  ]);
+
+
+  }
+

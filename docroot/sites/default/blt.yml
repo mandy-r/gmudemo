@@ -1,0 +1,9 @@
+project:
+  local:
+    hostname: local.gmudemo.com
+    protocol: http
+  machine_name: gmudemo
+drush:
+  aliases:
+    local: self
+    remote: gmudemo.prod

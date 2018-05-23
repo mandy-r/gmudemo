@@ -1,0 +1,24 @@
+uuid: 761eb44f-b920-4232-b199-92b3d8836229
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.openedu_hero
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: KzNDDYjfZ4f2lTMfEW6-Swl9lNHFgelBTtvGTLQOpMc
+id: block_content.openedu_hero.body
+field_name: body
+entity_type: block_content
+bundle: openedu_hero
+label: 'Hero Text'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

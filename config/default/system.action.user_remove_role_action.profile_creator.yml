@@ -1,0 +1,14 @@
+uuid: 4ff20531-a5ab-449e-b273-d7174f0758a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.profile_creator
+  module:
+    - user
+id: user_remove_role_action.profile_creator
+label: 'Remove the Profile creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: profile_creator

@@ -1,0 +1,21 @@
+uuid: cd8d5c9f-ca52-4acb-b6f7-134bede27b53
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: w02goZlVe7cfdZ9qWoVElz742TGJqHZ0xIR_-23BkU4
+id: node.field_profile_research_projects
+field_name: field_profile_research_projects
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

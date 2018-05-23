@@ -1,15 +1,81 @@
-uuid: eab1cb89-e3d0-49b7-ab57-b3c524f2eb3b
+uuid: d344cc9b-15ac-468e-a6c1-9565ac4f6613
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
     - field.field.node.page.field_meta_tags
+    - field.field.node.page.panelizer
     - node.type.page
   module:
     - metatag
+    - panelizer
     - text
     - user
+third_party_settings:
+  panelizer:
+    enable: true
+    custom: true
+    allow: false
+    default: default
+    displays:
+      default:
+        blocks:
+          f357c4df-b6c2-472d-94d7-35b6212180a0:
+            id: 'entity_field:node:body'
+            label: Body
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: text_default
+              settings: {  }
+              third_party_settings: {  }
+              weight: 0
+              region: content
+            region: middle
+            weight: 0
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+            uuid: f357c4df-b6c2-472d-94d7-35b6212180a0
+          f3e9bed9-4eed-4d09-a746-f720f14dc47b:
+            id: 'entity_field:node:title'
+            label: Title
+            provider: ctools_block
+            label_display: '0'
+            formatter:
+              label: hidden
+              type: string
+              settings:
+                link_to_entity: false
+              third_party_settings: {  }
+              weight: 0
+            region: subsection
+            weight: 0
+            uuid: f3e9bed9-4eed-4d09-a746-f720f14dc47b
+            context_mapping:
+              entity: '@panelizer.entity_context:entity'
+          91ebe92c-0d38-47fa-9be3-305f06b96c77:
+            id: system_breadcrumb_block
+            label: Breadcrumbs
+            provider: system
+            label_display: '0'
+            region: subsection
+            weight: 0
+            uuid: 91ebe92c-0d38-47fa-9be3-305f06b96c77
+            context_mapping: {  }
+        id: panels_variant
+        label: Default
+        uuid: 3890da29-65ca-40a7-80e4-a91fec66fa03
+        weight: 0
+        layout: oedu_onecol_with_subsection
+        layout_settings: {  }
+        page_title: '[node:title]'
+        storage_type: panelizer_default
+        storage_id: 'node:page:default:default'
+        builder: ipe
+        pattern: panelizer
+        static_context: {  }
 _core:
   default_config_hash: Kfxnq5Imio9VFBoNa_PIkzXoTmjz_T-EY3mOrwDTddU
 id: node.page.default
@@ -40,4 +106,6 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   panelizer: true
+  scheduled_publication: true

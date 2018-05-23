@@ -1,0 +1,14 @@
+uuid: 611fd5cf-73ce-4266-b368-61a50597c477
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.course_reviewer
+  module:
+    - user
+id: user_remove_role_action.course_reviewer
+label: 'Remove the Course reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: course_reviewer

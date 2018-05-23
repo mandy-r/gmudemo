@@ -1,0 +1,10 @@
+uuid: ae478682-b50d-49e8-9ab1-f99cdaf49a77
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: V6Zn6NqqQgUw_5s9HnMzga77k8uHROo1iBVjCDpTugg
+id: next-steps
+label: 'Next Steps'
+description: 'Global Menu for Next Steps CTA'
+locked: false

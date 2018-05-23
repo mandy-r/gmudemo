@@ -1,0 +1,14 @@
+uuid: 56596462-01b2-454e-8854-89bd07901b8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.department_creator
+  module:
+    - user
+id: user_add_role_action.department_creator
+label: 'Add the Department creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: department_creator

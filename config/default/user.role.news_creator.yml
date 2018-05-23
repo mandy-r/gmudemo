@@ -1,0 +1,30 @@
+uuid: e435dc25-989c-449c-b0ed-f68c1646bfa6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pZ5ANM94v-5huJjO9vgorQ_8j32nQiUc3ohafZCB99c
+id: news_creator
+label: 'News creator'
+weight: 7
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node news content'
+  - 'administer panelizer node news layout'
+  - 'change layouts in place editing'
+  - 'create news content'
+  - 'create url aliases'
+  - 'edit own news content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view news revisions'
+  - 'view own unpublished content'

@@ -1,4 +1,4 @@
-uuid: 3352f4a4-6045-471a-9409-d1c34d9290a0
+uuid: 13a9d03c-7a3a-4857-b650-eed0bf683ef5
 langcode: en
 status: true
 dependencies:
@@ -10,7 +10,7 @@ dependencies:
     - media.type.image
   module:
     - content_moderation
-    - image_widget_crop
+    - image
     - lightning_media
     - path
 _core:
@@ -28,17 +28,11 @@ content:
     third_party_settings: {  }
     region: content
   image:
-    type: image_widget_crop
+    type: image_image
     weight: 0
     settings:
       preview_image_style: medium
       progress_indicator: throbber
-      crop_list:
-        - freeform
-      show_crop_area: true
-      crop_preview_image_style: crop_thumbnail
-      show_default_crop: true
-      warn_multiple_usages: false
     third_party_settings:
       lightning_media:
         file_links: false

@@ -1,4 +1,4 @@
-uuid: 57f02c83-93fb-4283-abd7-a46ad4230444
+uuid: a9256b12-c54d-44d7-87b5-5f7dd4dd09e6
 langcode: en
 status: true
 dependencies: {  }
@@ -11,5 +11,3 @@ is_admin: false
 permissions:
   - 'administer node display'
   - 'administer panelizer'
-  - 'administer panelizer node landing_page defaults'
-  - 'administer panelizer node page defaults'

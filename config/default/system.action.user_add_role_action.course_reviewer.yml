@@ -1,0 +1,14 @@
+uuid: 0c628517-7c95-42da-80e9-9978997adabd
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.course_reviewer
+  module:
+    - user
+id: user_add_role_action.course_reviewer
+label: 'Add the Course reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: course_reviewer

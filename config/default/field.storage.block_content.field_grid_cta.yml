@@ -1,0 +1,21 @@
+uuid: ea7e9cba-5bc4-4901-8fd4-768dba3ad29c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+_core:
+  default_config_hash: pyhqrHEKBS9MWn5GzP6h7_cXVP0vvgEC8_u-tzfrUK8
+id: block_content.field_grid_cta
+field_name: field_grid_cta
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

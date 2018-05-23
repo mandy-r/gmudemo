@@ -1,0 +1,12 @@
+uuid: e2b60684-0a72-48e5-84bf-155dbe911d7e
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: XVKwXHsTbJdLI3R7Igi89qbvcLdjDUn8wDP6gyR6DOQ
+id: media.hero_image
+label: 'Hero Image'
+targetEntityType: media
+cache: true

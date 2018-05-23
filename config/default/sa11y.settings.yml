@@ -1,0 +1,9 @@
+api_server: 'http://api.ixm.ca:3000'
+api_key: 60a6-c9f6-4680-9f6d
+rules:
+  wcag2a: wcag2a
+  wcag2aa: wcag2aa
+  section508: '0'
+  best-practice: '0'
+  experimental: '0'
+frequency: 1

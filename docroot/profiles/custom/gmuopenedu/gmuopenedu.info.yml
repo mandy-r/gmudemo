@@ -1,0 +1,26 @@
+name: gmuopenedu
+type: profile
+description: 'Acquia Cloud Site Factory platform openedu base profile.'
+core: '8.x'
+distribution:
+  name: gmuopenedu
+base profile:
+  name: openedu
+  excluded_dependencies: [lightning_search]
+    
+dependencies:
+  - acsf
+  - config_split
+  - entity_browser_entity_form
+  - lightning_media_image
+  - lightning_core
+  - lightning_page
+  - lightning_landing_page
+  - lightning_layout
+  - lightning_media
+
+
+
+
+
+

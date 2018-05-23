@@ -1,0 +1,22 @@
+uuid: 022d8517-a039-47d1-8e30-f02677f86ac2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - node
+_core:
+  default_config_hash: 4lfqD_s9VkiYr2UwRCcPOSl5KA-GE5tZuviNenfcRlg
+id: node.field_program_grid_block
+field_name: field_program_grid_block
+entity_type: node
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

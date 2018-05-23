@@ -1,0 +1,14 @@
+uuid: 37949311-38c1-4ff7-9916-4dfe4b8381ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.profile_creator
+  module:
+    - user
+id: user_add_role_action.profile_creator
+label: 'Add the Profile creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: profile_creator

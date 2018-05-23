@@ -1,0 +1,33 @@
+uuid: 4d16333c-6a7e-4426-837d-1a224f687c13
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.department.body
+    - field.field.node.department.panelizer
+    - node.type.department
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: _V-bDogzBA8ZWRq66LyxgHC5c44u3p1mjVsekwogxLo
+id: node.department.teaser
+targetEntityType: node
+bundle: department
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  addtoany: true
+  panelizer: true

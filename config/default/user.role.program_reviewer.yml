@@ -1,0 +1,19 @@
+uuid: 414f0800-06b4-4924-a4bf-0b055a1dca0f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8S0QNXrrVnqirgkdlcRfxNxuSjf4LJ2fC5Cqs8bvk58
+id: program_reviewer
+label: 'Program reviewer'
+weight: 8
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any program content'
+  - 'edit any program content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view any unpublished content'
+  - 'view latest version'

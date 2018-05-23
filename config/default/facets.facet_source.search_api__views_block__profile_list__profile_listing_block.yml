@@ -1,0 +1,11 @@
+uuid: f5350c2b-818c-4138-ab01-5cca05370536
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: qolYuiZctK_ec1RV4SVjcwo8UYIrqYXAew9l03afeD8
+id: search_api__views_block__profile_list__profile_listing_block
+name: 'search_api:views_block__profile_list__profile_listing_block'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

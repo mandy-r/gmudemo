@@ -1,0 +1,11 @@
+uuid: 1a19231a-37ea-4241-b5bd-b231bf9f839e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 54iWvBtHVH9AV83xmxiruaOWhcRDgKVsaF76tv3SlWw
+id: search_api__views_block__event__latest_events_block
+name: 'search_api:views_block__event__latest_events_block'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

@@ -1,0 +1,11 @@
+uuid: d8670356-5aa5-4231-9156-09403bec3121
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ap1BJPbPXzVZTVrCcz7TT5ZFjf185uWY3-pCuni7YTU
+name: 'Event Audiences'
+vid: event_audiences
+description: ''
+hierarchy: 0
+weight: 0

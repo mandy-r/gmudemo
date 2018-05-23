@@ -1,0 +1,10 @@
+uuid: 90df0342-acdd-4bc6-bf3f-2414dc26d956
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _l7z2W5OTC7Dmrq1vC7o1FZq1qJe9cXRLGiwHBejhgg
+id: news_related_content
+label: 'Related News Content'
+revision: 1
+description: 'Add related content to a block via content reference'

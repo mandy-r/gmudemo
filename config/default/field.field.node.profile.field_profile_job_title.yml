@@ -1,0 +1,21 @@
+uuid: 4eab2577-25d9-40aa-868e-ed7525ff05d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_job_title
+    - node.type.profile
+_core:
+  default_config_hash: 2Mr5PpeMuf353R-KBSlGAD-lhgA0CKlpsXeVoSO1WH0
+id: node.profile.field_profile_job_title
+field_name: field_profile_job_title
+entity_type: node
+bundle: profile
+label: 'Job Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

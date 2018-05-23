@@ -1,0 +1,22 @@
+uuid: d8af2d84-a4a3-42bb-a514-f34c2eda9bf4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oedu_sub
+_core:
+  default_config_hash: CFy3yd0PyUNZwKA9yhkr2r0kUnUPHMiblQ20DwGzSG4
+id: tabs
+theme: oedu_sub
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

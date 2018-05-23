@@ -1,0 +1,14 @@
+uuid: 9e8a41f7-816a-4e8b-b1b7-887ec88ab972
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.story_reviewer
+  module:
+    - user
+id: user_add_role_action.story_reviewer
+label: 'Add the Story reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: story_reviewer

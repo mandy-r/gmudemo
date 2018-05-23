@@ -1,4 +1,4 @@
-uuid: e881d6ff-cf9d-4bee-8900-8f1cc4bb54c4
+uuid: 945bf1ca-067d-406c-80aa-85a2ad25bbb7
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
 name: crop_freeform
 label: 'Cropped: Freeform'
 effects:
-  5d883fa6-bea8-4714-9df1-334fcba21568:
-    uuid: 5d883fa6-bea8-4714-9df1-334fcba21568
+  7c38804a-c732-4ad5-beac-8a423b13ba5e:
+    uuid: 7c38804a-c732-4ad5-beac-8a423b13ba5e
     id: crop_crop
     weight: null
     data:

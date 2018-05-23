@@ -1,0 +1,10 @@
+uuid: cb4c6e0b-44fe-4540-b5f9-875df6e30ba0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: naZvIUy7HnlCyzgXEPkG7yEhW9RzqfylEyS1MysedVs
+id: utility-navigation
+label: 'Utility Navigation'
+description: 'Adds a utility navigation bar above the regular navigation and logo'
+locked: false

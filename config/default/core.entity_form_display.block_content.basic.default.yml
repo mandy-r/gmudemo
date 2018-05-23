@@ -1,4 +1,4 @@
-uuid: c94bb0ed-c3ec-4d3b-ae1a-ff361ddb10c4
+uuid: 34581311-4ed2-45a5-8f49-4782088240a8
 langcode: en
 status: true
 dependencies:
@@ -7,6 +7,7 @@ dependencies:
     - field.field.block_content.basic.body
   module:
     - content_moderation
+    - datetime
     - text
 _core:
   default_config_hash: S0f54eS7by2OoFl_NrvBK9UGTPx51cktxKhvwMy0Jls
@@ -37,5 +38,11 @@ content:
     weight: 100
     settings: {  }
     region: content
+    third_party_settings: {  }
+  scheduled_publication:
+    type: datetime_default
+    weight: 20
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden: {  }

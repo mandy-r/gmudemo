@@ -1,0 +1,14 @@
+uuid: 0191867d-5b27-4e17-aaf6-b7ea64eb1529
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.story_reviewer
+  module:
+    - user
+id: user_remove_role_action.story_reviewer
+label: 'Remove the Story reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: story_reviewer

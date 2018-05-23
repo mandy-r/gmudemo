@@ -1,0 +1,8 @@
+bootstrap:
+  enabled: 1
+  source: 'http://openedu.bry/profiles/contrib/openedu/themes/oedu_sub/css/style.css'
+css_grid:
+  enabled: 0
+presets: {  }
+_core:
+  default_config_hash: RIMQ618DNCZaoV6kL2ovdlMGsukUQacFt3Yyfgxk-hw

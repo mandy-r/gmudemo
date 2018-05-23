@@ -1,4 +1,4 @@
-uuid: aad17b09-391d-4b57-9c26-7792a3d387d8
+uuid: c210fdb9-30f9-4fa1-b2cd-8113ad148c5d
 langcode: en
 status: true
 dependencies:
@@ -89,5 +89,7 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  addtoany: true
   body: true
   panelizer: true
+  scheduled_publication: true

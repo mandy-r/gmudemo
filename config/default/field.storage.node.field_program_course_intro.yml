@@ -1,0 +1,21 @@
+uuid: c1e7d4fe-f848-4d6f-a955-2ef7848bd1f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: f5WBAckLLKD4AY2hvgFFqV8u59MrTZwEBf7iOrJzakg
+id: node.field_program_course_intro
+field_name: field_program_course_intro
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
