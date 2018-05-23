@@ -21,4 +21,16 @@ $target_env = $site . $env;
 // Run updates against requested domain rather than acsf primary domain.
 $domain = $_SERVER['HTTP_HOST'];
 
-exec("/mnt/www/html/$site.$env/vendor/acquia/blt/bin/blt artifact:update:drupal $site $env $domain --environment=$env --define drush.uri=$domain --verbose --yes");
+if ($is_acsf_env && function_exists('gardens_site_data_load_file')) {
+    // Function gardens_site_data_load_file() lives in
+    // /mnt/www/html/$ah_site/docroot/sites/g/sites.inc.
+    if (($map = gardens_site_data_load_file()) && isset($map['sites'])) {
+      foreach ($map['sites'] as $site => $site_details) {
+        if ($acsf_db_name == $site_details['name']) {
+          $acsf_site_name = $site;
+          break;
+        }
+      }
+    }
+}
+exec("/mnt/www/html/$site.$env/vendor/acquia/blt/bin/blt artifact:update:drupal --environment=$env --site=$domain --define drush.uri=$domain --verbose --yes");
