@@ -9,7 +9,7 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: develop
-  remotes: 
+  remotes:
     - 'rogue1@svn-1402.enterprise-g1.hosting.acquia.com:rogue1.git'
 drush:
   aliases:

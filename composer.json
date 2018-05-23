@@ -6,6 +6,7 @@
     "prefer-stable": true,
     "require": {
         "acquia/blt": "9.x-dev",
+        "drupal/acsf": "^2.47.0",
         "drush/drush": "master"
     },
     "require-dev": {
