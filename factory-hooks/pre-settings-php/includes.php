@@ -10,3 +10,7 @@
 // Configure your hash salt here.
 // $settings['hash_salt'] = '';.
 require DRUPAL_ROOT . '/../vendor/acquia/blt/settings/blt.settings.php';
+
+  if (PHP_SAPI !== 'cli') {
+    ini_set('memory_limit', '512M');
+  }
