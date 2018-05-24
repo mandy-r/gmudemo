@@ -41,9 +41,7 @@ function gmuopenedu_install() {
     'lightning_media_image',
   ]);
 
-    \Drupal::service('module_installer')->install([
-    'openedu_content',
-  ]);
+
 
 
   }
